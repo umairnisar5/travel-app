@@ -10,7 +10,11 @@ import Ser5 from '../../images/ser5.jpg';
 
 export default function Services() {
   return (<>
-  <h1 className='services'>SERVICES</h1>
+  <section className="section">
+  <div className='services'>
+  <h1 >SERVICES</h1>
+  </div>
+  </section>
   <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

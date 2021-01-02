@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home,
@@ -13,27 +14,61 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+}
+.section{
+  background: url('./images/img-2.jpg') no-repeat ;
+  background-size: cover;
+  background-position: center;
+  background-origin: content-box;
+}
+.services {
+  color: #fff;
+  padding: 180px;
+}
+.services h1{
+ font-size: 100px;
+ text-transform: uppercase;
 }
 
-.services {
-  background-image: url('./images/img-2.jpg');
-  background-position: center;
+@media screen and (max-width:600px){
+  .services {
+    color: #fff;
+    padding: 140px;
+    
+  }
+ .services h1{
+   font-size: 40px;
+   text-transform: uppercase;
+ }
+}
+
+.section2{
+  background: url('./images/img-1.jpg') no-repeat ;
   background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 100px;
+  background-position: center;
+  background-origin: content-box;
 }
 
 .products {
-  background-image: url('./images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
   color: #fff;
+  padding: 180px;
+}
+
+.products h1{
   font-size: 100px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:600px){
+  .products {
+    color: #fff;
+    padding: 140px;
+    
+  }
+ .products h1{
+   font-size: 40px;
+   text-transform: uppercase;
+ }
 }
 
 .sign-up {
@@ -46,17 +81,31 @@
   color: #fff;
 
 }
+.sign-up h1{
+   margin-bottom: 35px;
+    font-size: 55px;
+}
+@media screen and (min-width:700px){
+  .sign-up h1{
+    
+     font-size: 75px;
+ }
+}
 
 .submitbtn {
   color:  rgb(236, 162, 23);
-  margin: 11px 107px 0px;
-  border-radius: 10px;
+  
+  border-radius: 5px;
   border: 3px solid rgb(236, 162, 23);
   padding: 10px;
+  margin-top: 16px;
+  width: 100%;
   outline-style: none;
   outline: none;
   text-align: center;
   justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .submitbtn:hover {
@@ -67,16 +116,25 @@
 
 input {
   padding: 10px;
-  width: auto;
+  width: 100%;
   outline: none;
   outline-style: none;
   border-radius: 10px;
   border: 3px solid rgb(236, 162, 23);
   font-size: 25px;
+  box-sizing: border-box;
+  
 }
+
 
 input:hover{
   color: #fff;
   border: 3px solid rgb(255, 255, 255);
   background-color:  rgb(236, 162, 23);
+}
+@media screen and (max-width: 300px){
+       
+  form {
+    margin: 0 20px;
+  }
 }

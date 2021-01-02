@@ -10,7 +10,11 @@ import Car5 from '../../images/car5.jpg';
 export default function Products() {
   return(
   <>
-  <h1 className='products'>PRODUCTS</h1> 
+  <section className="section2">
+  <div className='products'>
+  <h1>PRODUCTS</h1> 
+  </div>
+  </section>
   <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
