@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  width: 100%;
 }
 
 .navbar-container {
@@ -27,6 +28,8 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  width: 100%;
+
 }
 
 .fa-typo3 {
@@ -47,6 +50,8 @@
 
 .nav-item {
   height: 80px;
+  width: 100%;
+
 }
 
 .nav-links {
@@ -75,7 +80,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
   .NavbarItems {
     position: relative;
   }
