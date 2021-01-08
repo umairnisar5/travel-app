@@ -28,12 +28,12 @@ function onSubmit() {
   <div className='sign-up'>
   <h1 >SIGN UP PAGE</h1>
   <form>
-  <label>Name</label><br/>
-  <input type='text' onChange={namefun} placeholder='Enter your Name' /><br/>
-    <label>Email</label><br/>
-    <input type='email' onChange={emailfun} placeholder='Enter your Email' /><br/>
-    <label>Password</label><br/>
-    <input type='password' onChange={passfun} placeholder="Enter your Password" /><br/>
+  <label className="sign_up_lable">Name</label><br/>
+  <input className="sign_up_input" type='text' onChange={namefun} placeholder='Enter your Name' /><br/>
+    <label className="sign_up_lable" >Email</label><br/>
+    <input className="sign_up_input" type='email' onChange={emailfun} placeholder='Enter your Email' /><br/>
+    <label className="sign_up_lable">Password</label><br/>
+    <input className="sign_up_input" type='password' onChange={passfun} placeholder="Enter your Password" /><br/>
     <input className='submitbtn' type='submit' onClick={onSubmit} />
   </form>
   </div>
